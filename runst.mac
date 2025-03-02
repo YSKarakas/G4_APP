@@ -1,0 +1,4 @@
+##This Macro must be used only when G4MULTITHREADED is NOT used.##
+/run/initialize
+
+/run/beamOn 10

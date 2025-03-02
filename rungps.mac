@@ -1,0 +1,10 @@
+
+##This macro must be used only while using G4MULTITHREADED##
+/run/numberOfThreads 5
+/run/initialize
+/control/execute gps.mac
+/process/optical/scintillation/setFiniteRiseTime true
+/control/verbose 2
+/control/saveHistory
+/run/verbose 2
+
